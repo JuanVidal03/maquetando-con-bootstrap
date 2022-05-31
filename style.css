@@ -1,16 +1,15 @@
+/* Estilos generales */
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+
 body ::selection{
     color: #000;
     background-color: #d61919d5;
 }
-
-
 /* Fin estilos generales */
 
 /* Estilos Header */
@@ -36,7 +35,6 @@ body ::selection{
 
 #header{
     background-color: #000;
-    padding: 0rem 5rem;
 }
 
 .logo-navbar{
@@ -52,4 +50,26 @@ body ::selection{
     width: 2rem !important;
     height: 2rem !important;
 }
+
 /* Fin estilos header */
+
+/* Estilos primera section */
+    .carrusel-options>img{
+        width: 100%;
+        height: 500px;
+        background-size: auto;
+    }
+/* Fin estilos primera section */
+
+/* Estilos section 2 somos */
+    #somos{
+        width: 100%;
+        color: #000;
+    }
+
+    #somos h2{
+        text-transform: uppercase;
+        font-size: 2.5rem;
+        color: #000;
+    }
+/* fin estilos section 2 somos */

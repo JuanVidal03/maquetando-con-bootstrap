@@ -14,33 +14,33 @@
 
     <!-- INICIO DE HEADER -->
 
-    <header id="header">
-        <nav class="navbar navbar-expand-lg bg-ligth" style="background-color:#000">
+    <header id="header" class="d-flex justify-content-center">
+        <nav class="navbar navbar-expand-lg bg-ligt" style="background-color:#000">
 
             <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="logo-navbar" src="./multimedia/coder-logo.png" alt="Es la imagen del logo de la empresa"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <a class="navbar-brand" href="#"><img class="logo-navbar" src="./multimedia/coder-logo.png" alt="Es la imagen del logo de la empresa"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="collapse navbar-collapse" id="navbarNav">
 
-                    <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Artistas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Playlist</a>
-                    </li>
-                    </ul>
+                        <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Artistas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Playlist</a>
+                        </li>
+                        </ul>
 
-            </div>
+                </div>
 
             </div>
 
@@ -49,6 +49,65 @@
     </header>
 
     <!-- FIN HEADER -->
+
+    <main>
+
+        <!-- INICIO SECTION DE CARRUSEL -->
+        <section>
+
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+                <div class="carousel-inner">
+
+                  <div class="carousel-item active carrusel-options">
+                    <img src="./multimedia/drake-portada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item carrusel-options">
+                    <img src="./multimedia/wos-portada.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item carrusel-options">
+                    <img src="./multimedia/the-weeknd-portada.jpg" class="d-block w-100" alt="...">
+                  </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+        </section>
+        <!-- FIN SECTION DE CARRUSEL -->
+
+        <!-- SECTION SOMOS -->
+        <section id="somos" class="col-lg-12 col-md-12 col-sm-12 container pt-5">
+
+            <h2 class="d-flex justify-content-center col-lg-12 mb-5 text-center">¿Quienes somos?</h2>
+
+            <div class="row">
+
+                <div class="somos-text col-lg-6 col-md-12">
+
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quae illo debitis itaque doloribus natus aliquid tenetur nam voluptates deleniti tempore impedit placeat ea nobis quam consequatur, inventore quis laborum odit distinctio, assumenda at non? Laudantium inventore, totam cupiditate quibusdam, suscipit aut aspernatur nesciunt velit animi facilis, deleniti veniam sit vero saepe. Consequatur veniam tenetur iure error quia officia provident voluptatibus deserunt dicta nisi hic, velit dolore iusto officiis exercitationem!</p><br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint veniam quae perferendis, consequuntur assumenda possimus dolores accusantium hic officiis aliquid harum blanditiis optio. Voluptatem velit nostrum quo culpa voluptates non.</p>
+                </div>
+
+                <div class="somos-video col-lg-6 col-md-12 d-flex justify-content-end">
+
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/HwDuCDT4v-I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+
+        </section>
+        <!-- FIN SOMOS -->
+
+    </main>
 
 
 
