@@ -10,6 +10,13 @@ body ::selection{
     color: #000;
     background-color: #d61919d5;
 }
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 /* Fin estilos generales */
 
 /* Estilos Header */
@@ -170,3 +177,43 @@ body ::selection{
         text-transform: uppercase;
     }
 /* fin contacto*/
+
+/* inicio footer */
+
+    footer{
+        background-color: #000;
+}
+
+.img-footer{
+    width: 150px;
+    transition: all .8s ease;
+}
+
+.img-footer:hover{
+    transform: rotate(360deg) scale(1.1);
+}
+.item-footer{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+.item-footer:hover{
+    color: #fff;
+}
+.nav-footer li{
+    transition: all .5s ease;
+}
+.nav-footer li:hover{
+    transform: translateX(30px);
+}
+
+.text-footer{
+    color: #fff;
+}
+
+.text-credits{
+    font-weight: 500;
+}
+/* fin footer */
