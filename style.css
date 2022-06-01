@@ -59,6 +59,12 @@ body ::selection{
         height: 500px;
         background-size: auto;
     }
+
+    @media screen and (max-width: 768px) {
+        .carrusel-options>img{
+            height: 300px;
+        }
+    }
 /* Fin estilos primera section */
 
 /* Estilos section 2 somos */
@@ -72,4 +78,44 @@ body ::selection{
         font-size: 2.5rem;
         color: #000;
     }
+
+    @media screen and (max-width: 768px) {
+    .somos-video{
+        margin-top: 3rem !important;
+    }
+
+    .somos-text{
+        text-align: center;
+    }
+}
 /* fin estilos section 2 somos */
+
+/* inicio estilos servicios */
+
+    #servicios h2{
+        font-size: 2.5rem;
+        color: #000;
+    }
+
+    #servicios{
+        border-top: solid 3px #000;
+    }
+
+    .img-card>img{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .card{
+        width: 400px !important;
+        padding: 0% !important;
+    }
+
+    .card-text{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.5rem;
+        color: #000;
+    }
+
+/* fin estilos servicios */
